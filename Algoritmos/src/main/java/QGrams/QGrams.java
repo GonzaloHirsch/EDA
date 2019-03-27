@@ -6,6 +6,13 @@ import java.util.Map;
 public class QGrams {
     private static final String EXTRA_STRING = "*";
 
+    /**
+     * QGrams splits the input strings into smaller parts and compares those.
+     * @param strA
+     * @param strB
+     * @param grams
+     * @return
+     */
     public static double QGrams(String strA, String strB, int grams){
         strA = GenerateGramString(strA, grams).toUpperCase();
         strB = GenerateGramString(strB, grams).toUpperCase();
