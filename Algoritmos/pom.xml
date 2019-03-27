@@ -44,6 +44,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.12</version>
+        </dependency>
+        <dependency>
             <groupId>ar.edu.itba.eda</groupId>
             <artifactId>TimerJava</artifactId>
             <version>1.0</version>

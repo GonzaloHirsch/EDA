@@ -16,6 +16,12 @@ public class Levenshtein {
         }
     }
 
+    /**
+     * Levenshtein calculates the amount of steps from string A to string B.
+     * @param strA  string to compare
+     * @param strB  string to compare
+     * @return the least amount of steps between the stings
+     */
     public static int Levenshtein(String strA, String strB){
         //Add the dummy character to be able to fill the table correctly
         strA = "*" + strA;
