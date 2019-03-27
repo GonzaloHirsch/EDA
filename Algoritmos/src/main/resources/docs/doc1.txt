@@ -1,3 +1,0 @@
-Materia: estructura de datos y algoritmos.
-Alumnos: ver otro documento 
-AN, EN, JU, XX
