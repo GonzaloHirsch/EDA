@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6990edff-4416-41fe-84a2-a04e9f66e350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IndexOf/IndexOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IndexOf/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/QGrams/QGrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QGrams/QGrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IndexOf/IndexOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringSearch/StringSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IndexOf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringSearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IndexOf/IndexOf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IndexOf/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,19 +19,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IndexOf/IndexOf.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StringSearch/StringSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="399">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IndexOf/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StringSearch/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -66,6 +70,9 @@
         <option value="$PROJECT_DIR$/src/main/java/QGrams/QGrams.java" />
         <option value="$PROJECT_DIR$/src/main/java/IndexOf/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/IndexOf/IndexOf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IndexOf/StringSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StringSearch/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StringSearch/StringSearch.java" />
       </list>
     </option>
   </component>
@@ -126,14 +133,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algoritmos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="IndexOf" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -145,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553688493315" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553691021142" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -177,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IndexOf.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Soundex.Main" />
       <module name="Algoritmos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IndexOf.*" />
+          <option name="PATTERN" value="Soundex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +190,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Soundex.Main" />
+      <option name="MAIN_CLASS_NAME" value="StringSearch.Main" />
       <module name="Algoritmos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Soundex.*" />
+          <option name="PATTERN" value="StringSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +225,12 @@
       <workItem from="1553037639702" duration="961000" />
       <workItem from="1553039233571" duration="873000" />
       <workItem from="1553079533451" duration="7874000" />
-      <workItem from="1553683572636" duration="4889000" />
+      <workItem from="1553683572636" duration="7305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16544000" />
+    <option name="totallyTimeSpent" value="18960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -246,7 +245,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902297" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32405892" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32405892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,17 +327,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IndexOf/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringSearch/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IndexOf/IndexOf.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringSearch/StringSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="399">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
