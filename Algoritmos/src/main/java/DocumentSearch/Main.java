@@ -14,8 +14,14 @@ public class Main {
 
             //It works
             //FullTextRetrieval.searchIndex("owner", "gonzalo");
+            //FullTextRetrieval.searchIndex("content", "alumnos");
 
-            FullTextRetrieval.searchIndex("content", "alumnos");
+            //FullTextRetrieval.searchIndexAdvanced("content", "\"ver documento\"~0");
+            //FullTextRetrieval.searchIndexAdvanced("content", "\"ver documento\"~1");
+            //FullTextRetrieval.searchIndexAdvanced("content", "analia ana~4");
+            //FullTextRetrieval.searchIndexAdvanced("content", "ana analia~8");
+            FullTextRetrieval.searchIndexAdvanced("content", "joe~0.9");
+            FullTextRetrieval.searchIndexAdvanced("content", "joe~0.6");
         } catch(Exception ex){
             System.out.println("Error: " + ex.getMessage());
         }

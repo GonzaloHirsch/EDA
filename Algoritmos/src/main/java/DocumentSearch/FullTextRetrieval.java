@@ -25,10 +25,9 @@ import org.apache.lucene.document.StringField;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.*;
 import org.apache.lucene.index.IndexWriterConfig.OpenMode;
-import org.apache.lucene.search.IndexSearcher;
-import org.apache.lucene.search.ScoreDoc;
-import org.apache.lucene.search.TermQuery;
-import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.queryparser.classic.ParseException;
+import org.apache.lucene.queryparser.classic.QueryParser;
+import org.apache.lucene.search.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
@@ -113,6 +112,32 @@ public class FullTextRetrieval {
             System.out.println("path: "+ doc.getField("path").stringValue());
         }
 
+    }
+
+    public static void searchIndexAdvanced(String field, String query) throws FileNotFoundException, IOException, ParseException {
+        String databaseDir = getDatabaseDir();
+
+        IndexReader indexReader = DirectoryReader.open(
+                FSDirectory.open(Paths.get(databaseDir + "/index/")));
+        IndexSearcher indexSearcher = new IndexSearcher(indexReader);
+
+
+        QueryParser queryparser = new QueryParser(field, new StandardAnalyzer() );
+
+        Query aux = queryparser.parse(query);
+
+        TopDocs topDocs = indexSearcher.search(aux, 10);
+        System.out.println("Number of hits: " + topDocs.totalHits);
+        ScoreDoc[] resultSet = topDocs.scoreDocs;
+        for(ScoreDoc scoredoc: resultSet) {
+            int id = scoredoc.doc;
+            System.out.println(indexSearcher.explain(aux, id));
+
+            // mostrar resultados
+            Document doc = indexSearcher.doc(scoredoc.doc);
+            System.out.println("owner: " + doc.getField("owner").stringValue());
+            System.out.println("path: " + doc.getField("path").stringValue());
+        }
     }
 
     /*public static void searchIndexPath(String query) throws FileNotFoundException, IOException 	{
