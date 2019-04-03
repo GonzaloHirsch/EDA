@@ -1,4 +1,4 @@
-package search;
+package arrays;
 
 public class ArraySearch {
 
