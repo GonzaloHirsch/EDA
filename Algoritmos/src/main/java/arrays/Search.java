@@ -1,6 +1,6 @@
 package arrays;
 
-public class ArraySearch {
+public class Search {
 
     /**
      * Recursive binary search algorithm. It searches for the key item in the array
