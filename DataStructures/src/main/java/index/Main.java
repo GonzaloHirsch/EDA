@@ -18,8 +18,9 @@ public class Main {
         index.printArray();
         */
 
-        Integer[] dataI = new Integer[]{10, 60, 20, 100, 80, 40, 60};
+        Integer[] dataI = new Integer[]{60, 60, 20, 100, 80, 40, 60};
         ParametricIndex<Integer> myIndex = new ParametricIndex<>(dataI);
+        myIndex.printArray();
         int searchKey = 50;
         int pos = myIndex.search(searchKey);
         System.out.println(String.format("%d en pos %d", searchKey, pos));
@@ -31,7 +32,7 @@ public class Main {
         myIndex.printArray();
         System.out.println(myIndex.getArray().length);
 
-        String[] dataS = new String[]{"hola", "34", "chau"};
+        String[] dataS = new String[]{"hola", "34", "chau", "ep", "23"};
         ParametricIndex<String> myIndexS = new ParametricIndex<>(dataS);
         String stringKey = "al";
         pos = myIndexS.search(stringKey);

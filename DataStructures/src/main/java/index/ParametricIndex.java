@@ -11,7 +11,7 @@ public class ParametricIndex<T extends Comparable<? super T>>{
         if (data == null)
             throw new RuntimeException("Create a data collection");
 
-        data = sorting.InsertionSort.Sort(data);
+        sorting.QuickSort.sort(data);
         this.indexedData = data;
         this.dim = indexedData.length;
     }
