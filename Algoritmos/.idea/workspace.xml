@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6990edff-4416-41fe-84a2-a04e9f66e350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/ArraySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/DataStructures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/index/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/index/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Algoritmos-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DocumentSearch/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DocumentSearch/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-Algoritmos-1.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,17 +21,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+            <state relative-caret-position="539">
+              <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/search/ArraySearch.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1445#1475#1" expanded="true" />
+                <element signature="e#1550#1580#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DocumentSearch/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="195">
               <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="e#160#241#0" />
@@ -112,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/main/java/DocumentSearch/FullTextRetrieval.java" />
         <option value="$PROJECT_DIR$/src/main/java/DocumentSearch/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/ArraySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -149,7 +140,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,12 +176,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554256687226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554256873360" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -298,11 +289,12 @@
       <workItem from="1553694248364" duration="78000" />
       <workItem from="1553694434836" duration="417000" />
       <workItem from="1554122971917" duration="2521000" />
+      <workItem from="1554256839931" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29390000" />
+    <option name="totallyTimeSpent" value="29424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,10 +306,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="0" y="32" width="1280" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.13388805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.13570274" />
       <window_info id="Structure" order="1" sideWeight="0.5013624" side_tool="true" weight="0.1323752" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -343,7 +335,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" anchor="right" id="Maven" order="6" visible="true" weight="0.17473525" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.17447495" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -472,9 +464,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DocumentSearch/DocumentSearch.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DocumentSearch/FullTextRetrieval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/search/ArraySearch.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DocumentSearch/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="195">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#160#241#0" />
@@ -489,27 +499,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DocumentSearch/FullTextRetrieval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1445#1475#1" expanded="true" />
+            <element signature="e#1550#1580#1" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search/ArraySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
