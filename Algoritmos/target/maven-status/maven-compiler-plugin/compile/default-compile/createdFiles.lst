@@ -4,6 +4,7 @@ DocumentSearch\FullTextRetrieval$1.class
 DocumentSearch\Main.class
 QGrams\QGrams.class
 arrays\Search.class
+sorting\InsertionSort.class
 Soundex\Soundex.class
 StringSearch\StringSearch.class
 Levenshtein\Main.class
