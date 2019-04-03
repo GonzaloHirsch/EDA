@@ -22,4 +22,28 @@ public class Search {
             return search(arr, key, left, mid - 1);
         }
     }
+
+    /**
+     * Recursive binary search algorith to determine the position a new item would have in the array
+     * @param arr array containing data
+     * @param key new item
+     * @param left left limit of the array window(start in 0)
+     * @param right right limit of the array window(start in length - 1)
+     * @return the position of the key in the array
+     */
+    public static int determineNewItemPosition(int[] arr, int key, int left, int right){
+        int mid = (right + left) / 2;
+        if(left >= right){
+            if (arr[mid] > key){
+                return mid;
+            } else {
+                return mid + 1;
+            }
+        }
+        if (key > arr[mid]){
+            return determineNewItemPosition(arr, key, mid + 1, right);
+        } else {
+            return determineNewItemPosition(arr, key, left, mid - 1);
+        }
+    }
 }

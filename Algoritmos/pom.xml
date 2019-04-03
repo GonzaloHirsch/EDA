@@ -65,6 +65,11 @@
         </dependency>
         <dependency>
             <groupId>ar.edu.itba.eda</groupId>
+            <artifactId>DataStructures</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>ar.edu.itba.eda</groupId>
             <artifactId>TimerJava</artifactId>
             <version>1.0</version>
         </dependency>

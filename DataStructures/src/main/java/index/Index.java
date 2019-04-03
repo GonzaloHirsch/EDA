@@ -1,7 +1,5 @@
 package index;
 
-import search.ArraySearch;
-
 import java.util.Arrays;
 
 public class Index {
@@ -24,6 +22,28 @@ public class Index {
      * @return position of the item if present in the array, -1 if not
      */
     public int search(int key){
-        return ArraySearch.search(this.indexedData, key, 0, dim - 1);
+        return arrays.Search.search(this.indexedData, key, 0, dim - 1);
+    }
+
+    public void insert(int key){
+        this.indexedData = arrays.Insert.insert(indexedData, key);
+        if (this.indexedData.length != dim)
+            this.dim++;
+    }
+
+    public void printArray(){
+        for (int i = 0; i < indexedData.length; i++){
+            System.out.print(indexedData[i] + "\t");
+        }
+        System.out.print("\n");
+    }
+
+    public boolean delete(int key){
+        this.indexedData = arrays.Delete.delete(indexedData, key);
+        if (this.indexedData.length != dim){
+            this.dim--;
+            return true;
+        }
+        return false;
     }
 }

@@ -1,6 +1,7 @@
 package quicksort;
 
-import BinaryTree.BinaryTree;
+import binarytree.BinaryTree;
+import binarytree.Node;
 
 import java.util.ArrayList;
 import java.util.List;
