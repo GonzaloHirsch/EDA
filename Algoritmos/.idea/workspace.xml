@@ -2,33 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6990edff-4416-41fe-84a2-a04e9f66e350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/index/ParametricIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/Move.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/arrays/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Algoritmos-1.0-shaded.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Algoritmos-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Algoritmos.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/search/ArraySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/Delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Insert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/Insert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/Search.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-Algoritmos-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/src/main/java/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/src/main/java/binarytree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/binarytree/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructures/src/main/java/index/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/index/Index.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructures/src/main/java/index/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/index/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructures/target/classes/index/Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/target/classes/index/Index.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructures/target/classes/index/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/target/classes/index/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,26 +40,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Insert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="328">
+              <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Insert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Move.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="172">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -73,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Delete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -82,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Search.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="391">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -91,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="34">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
@@ -100,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DocumentSearch/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="e#160#241#0" />
               </folding>
@@ -158,11 +152,11 @@
         <option value="$PROJECT_DIR$/src/main/java/DocumentSearch/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/ArraySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/arrays/Search.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arrays/Insert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arrays/Delete.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/Move.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrays/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrays/Delete.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/arrays/Insert.java" />
       </list>
     </option>
   </component>
@@ -200,6 +194,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,7 +239,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,11 +353,12 @@
       <workItem from="1554122971917" duration="2521000" />
       <workItem from="1554256839931" duration="34000" />
       <workItem from="1554257149840" duration="4266000" />
+      <workItem from="1554290167771" duration="1724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33690000" />
+    <option name="totallyTimeSpent" value="35414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,10 +370,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.13731825" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.13918306" />
       <window_info id="Structure" order="1" sideWeight="0.5013624" side_tool="true" weight="0.1323752" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,7 +382,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.1323752" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5751825" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5744681" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,7 +399,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.17447495" />
+      <window_info active="true" anchor="right" id="Maven" order="6" visible="true" weight="0.17397882" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -457,12 +452,6 @@
           <line>117</line>
           <properties />
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arrays/Insert.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -550,6 +539,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/ArraySearch.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/database.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -557,55 +553,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Move.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        <state relative-caret-position="172">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DocumentSearch/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="e#160#241#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Search.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="328">
+          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Insert.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Move.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Insert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+        <state relative-caret-position="70">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>

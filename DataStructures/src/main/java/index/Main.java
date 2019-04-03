@@ -15,5 +15,25 @@ public class Main {
         System.out.println(index.delete(80));
         System.out.println(index.search(80));
         index.printArray();
+
+        Integer[] dataI = new Integer[]{};
+        ParametricIndex<Integer> myIndex = new ParametricIndex<>(dataI);
+        int searchKey = 50;
+        int pos = myIndex.search(searchKey);
+        System.out.println(String.format("%d en pos %d", searchKey, pos));
+        myIndex.insert(searchKey);
+        pos = myIndex.search(searchKey);
+        System.out.println(String.format("%d en pos %d", searchKey, pos));
+        myIndex.printArray();
+
+        String[] dataS = new String[]{"hola", "34", "chau"};
+        ParametricIndex<String> myIndexS = new ParametricIndex<>(dataS);
+        String stringKey = "al";
+        pos = myIndexS.search(stringKey);
+        System.out.println(String.format("%s en pos %d", stringKey, pos));
+        myIndexS.insert(stringKey);
+        pos = myIndexS.search(stringKey);
+        System.out.println(String.format("%s en pos %d", stringKey, pos));
+        myIndexS.printArray();
     }
 }

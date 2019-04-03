@@ -9,7 +9,7 @@ public class Index {
 
     public Index(int[] unsortedData){
         if (unsortedData == null)
-            throw new RuntimeException("Create a data collectio");
+            throw new RuntimeException("Create a data collection");
 
         Arrays.sort(unsortedData);
         this.indexedData = unsortedData;

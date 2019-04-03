@@ -23,6 +23,20 @@ public class Search {
         }
     }
 
+    public static <T extends Comparable<? super T>> int search(T[] arr, T key, int left, int right){
+        int mid = (right + left) / 2;
+        int comparison = arr[mid].compareTo(key);
+        if (comparison == 0)
+            return mid;
+        if(left >= right)
+            return -1;
+        if (comparison < 0){
+            return search(arr, key, mid + 1, right);
+        } else {
+            return search(arr, key, left, mid - 1);
+        }
+    }
+
     /**
      * Recursive binary search algorith to determine the position a new item would have in the array
      * @param arr array containing data
@@ -41,6 +55,23 @@ public class Search {
             }
         }
         if (key > arr[mid]){
+            return determineNewItemPosition(arr, key, mid + 1, right);
+        } else {
+            return determineNewItemPosition(arr, key, left, mid - 1);
+        }
+    }
+
+    public static  <T extends Comparable<? super T>> int determineNewItemPosition(T[] arr, T key, int left, int right){
+        int mid = (right + left) / 2;
+        int comparison = arr[mid].compareTo(key);
+        if(left >= right){
+            if (comparison > 0){
+                return mid;
+            } else {
+                return mid + 1;
+            }
+        }
+        if (comparison < 0){
             return determineNewItemPosition(arr, key, mid + 1, right);
         } else {
             return determineNewItemPosition(arr, key, left, mid - 1);
