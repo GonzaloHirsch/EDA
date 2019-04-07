@@ -3,7 +3,6 @@ arrays\Insert.class
 DocumentSearch\FullTextRetrieval$1.class
 DocumentSearch\Main.class
 QGrams\QGrams.class
-quicksort\QuickSortBinary.class
 utils\Utils.class
 sorting\QuickSort.class
 arrays\Search.class
@@ -15,6 +14,7 @@ arrays\Delete.class
 StringSearch\Main.class
 QGrams\Main.class
 arrays\Move.class
+sorting\MergeSort.class
 DocumentSearch\FullTextRetrieval.class
 SoundexAlternative\SoundexAlternative.class
 LevenshteinAlternative\LevenshteinAlternative.class
