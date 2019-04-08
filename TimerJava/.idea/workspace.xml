@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5804234a-78e2-4914-a186-a642664dbd69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/lists/SortedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructures/src/test/java/lists/ListTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimerJoda/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/lists/SortedLinkedListWithHeader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algoritmos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/Algoritmos-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/original-Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/original-Algoritmos-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimerJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TimerJoda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimerJoda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TimerJoda/TimerJoda.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />

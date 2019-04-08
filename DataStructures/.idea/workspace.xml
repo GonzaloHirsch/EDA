@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e666e97-941e-49c6-bf73-459b7cb2c021" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lists/SortedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lists/ListTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimerJava/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TimerJoda/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lists/SortedLinkedListWithHeader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algoritmos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/Algoritmos-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/original-Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/original-Algoritmos-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TimerJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimerJava/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TimerJava/TimerJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TimerJoda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimerJoda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TimerJoda/TimerJoda.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,21 +16,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lists/SortedLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1379">
-              <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+            <state relative-caret-position="426">
+              <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1105#1106#0" expanded="true" />
                 <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="class#SortedLinkedListIterator#0;class#SortedLinkedList#0" />
+                <element signature="method#remove#0;class#SortedLinkedList#0" />
+                <element signature="method#size#0;class#SortedLinkedList#0" />
                 <element signature="e#2023#2024#0" expanded="true" />
                 <element signature="e#2063#2064#0" expanded="true" />
                 <element signature="e#2117#2118#0" expanded="true" />
                 <element signature="e#2163#2164#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lists/SortedLinkedListWithHeader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="158" column="9" lean-forward="true" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="method#remove#0;class#SortedLinkedListWithHeader#0" />
+                <element signature="method#add#0;class#SortedLinkedListWithHeader#0" />
+                <element signature="e#3291#3292#0" expanded="true" />
+                <element signature="e#3330#3331#0" expanded="true" />
+                <element signature="e#3358#3359#0" expanded="true" />
+                <element signature="e#3401#3402#0" expanded="true" />
+                <element signature="e#3455#3456#0" expanded="true" />
+                <element signature="e#3518#3519#0" expanded="true" />
+                <element signature="e#3832#3833#0" expanded="true" />
+                <element signature="e#3876#3877#0" expanded="true" />
+                <element signature="e#3472#3473#0" expanded="true" />
+                <element signature="e#3518#3519#0" expanded="true" />
+                <element signature="e#4412#4413#0" expanded="true" />
+                <element signature="e#4458#4459#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Iterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="92" column="47" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -68,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/main/java/index/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/lists/ListTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/lists/SortedLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lists/SortedLinkedListWithHeader.java" />
       </list>
     </option>
   </component>
@@ -134,6 +165,14 @@
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -147,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554725095184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554731011924" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TimerJoda" />
   </component>
   <component name="RunDashboard">
@@ -162,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.SortedLinkedListWithHeader">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="index.Main" />
       <module name="DataStructures" />
@@ -189,8 +228,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortedLinkedListWithHeader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lists.SortedLinkedListWithHeader" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedLinkedListWithHeader" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SortedLinkedList" />
       </list>
@@ -212,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14729000" />
+    <option name="totallyTimeSpent" value="19519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -272,6 +325,12 @@
           <line>5</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lists/SortedLinkedListWithHeader.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -365,17 +424,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lists/SortedLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1379">
-          <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+        <state relative-caret-position="426">
+          <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1105#1106#0" expanded="true" />
             <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="class#SortedLinkedListIterator#0;class#SortedLinkedList#0" />
+            <element signature="method#remove#0;class#SortedLinkedList#0" />
+            <element signature="method#size#0;class#SortedLinkedList#0" />
             <element signature="e#2023#2024#0" expanded="true" />
             <element signature="e#2063#2064#0" expanded="true" />
             <element signature="e#2117#2118#0" expanded="true" />
             <element signature="e#2163#2164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="92" column="47" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lists/SortedLinkedListWithHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="158" column="9" lean-forward="true" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="method#remove#0;class#SortedLinkedListWithHeader#0" />
+            <element signature="method#add#0;class#SortedLinkedListWithHeader#0" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
+            <element signature="e#3358#3359#0" expanded="true" />
+            <element signature="e#3401#3402#0" expanded="true" />
+            <element signature="e#3455#3456#0" expanded="true" />
+            <element signature="e#3518#3519#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
+            <element signature="e#3876#3877#0" expanded="true" />
+            <element signature="e#3472#3473#0" expanded="true" />
+            <element signature="e#3518#3519#0" expanded="true" />
+            <element signature="e#4412#4413#0" expanded="true" />
+            <element signature="e#4458#4459#0" expanded="true" />
           </folding>
         </state>
       </provider>
