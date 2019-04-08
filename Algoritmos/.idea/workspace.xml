@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6990edff-4416-41fe-84a2-a04e9f66e350" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/lists/SortedLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructures/src/test/java/lists/ListTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimerJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TimerJoda/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Algoritmos-1.0-shaded.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Algoritmos-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/MergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-Algoritmos-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/src/main/java/index/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/src/main/java/index/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/DataStructures-1.0-shaded.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/DataStructures-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/classes/index/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/target/classes/index/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructures/target/original-DataStructures-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimerJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimerJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimerJava/TimerJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimerJoda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimerJoda/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimerJoda/TimerJoda.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="342">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,9 +139,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -180,36 +179,20 @@
               <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algoritmos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algoritmos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554684414469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554725095286" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -320,11 +303,12 @@
       <workItem from="1554257149840" duration="4266000" />
       <workItem from="1554290167771" duration="7645000" />
       <workItem from="1554326341550" duration="2139000" />
+      <workItem from="1554721594111" duration="1824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45821000" />
+    <option name="totallyTimeSpent" value="47645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,10 +320,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.14135703" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.1323752" />
       <window_info id="Structure" order="1" sideWeight="0.5013624" side_tool="true" weight="0.1323752" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,7 +332,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.1323752" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902297" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57226276" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57226276" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,7 +349,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.1736672" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.15960665" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -581,8 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="342">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

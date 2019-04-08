@@ -1,20 +1,20 @@
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/sorting/QuickSort.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/Soundex/Main.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/Levenshtein/Main.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/DocumentSearch/FullTextRetrieval.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/sorting/InsertionSort.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/arrays/Insert.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/Soundex/Soundex.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/SoundexAlternative/SoundexAlternative.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/StringSearch/Main.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/sorting/MergeSort.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/arrays/Search.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/arrays/Move.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/DocumentSearch/Main.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/Levenshtein/Levenshtein.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/QGrams/QGrams.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/QGrams/Main.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/utils/Utils.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/arrays/Delete.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/LevenshteinAlternative/LevenshteinAlternative.java
-/Users/gonzalo/IdeaProjects/EDA/Algoritmos/src/main/java/StringSearch/StringSearch.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\arrays\Search.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\sorting\QuickSort.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\QGrams\QGrams.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\QGrams\Main.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\utils\Utils.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\sorting\MergeSort.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\Levenshtein\Main.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\SoundexAlternative\SoundexAlternative.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\arrays\Move.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\StringSearch\StringSearch.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\StringSearch\Main.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\arrays\Delete.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\LevenshteinAlternative\LevenshteinAlternative.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\arrays\Insert.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\DocumentSearch\FullTextRetrieval.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\DocumentSearch\Main.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\sorting\InsertionSort.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\Soundex\Soundex.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\Levenshtein\Levenshtein.java
+C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\Soundex\Main.java
