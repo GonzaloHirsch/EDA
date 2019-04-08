@@ -18,7 +18,7 @@ public class Main {
         index.printArray();
         */
 
-        Integer[] dataI = new Integer[]{60, 60, 20, 100, 80, 40, 60};
+        Integer[] dataI = new Integer[]{60, 20, 100, 80, 40, 60};
         ParametricIndex<Integer> myIndex = new ParametricIndex<>(dataI);
         myIndex.printArray();
         int searchKey = 50;
