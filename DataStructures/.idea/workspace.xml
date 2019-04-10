@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <list default="true" id="1e666e97-941e-49c6-bf73-459b7cb2c021" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/lists/SortedLinkedListWithHeader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algoritmos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/.idea/workspace.xml" afterDir="false" />
@@ -9,6 +10,8 @@
       <change beforePath="$PROJECT_DIR$/../TimerJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimerJava/.idea/workspace.xml" afterDir="false" />
     </list>
 =======
+=======
+>>>>>>> Stashed changes
     <list default="true" id="9ca2c214-e632-4a12-9ab9-c2141555a2c1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
 >>>>>>> Stashed changes
@@ -20,6 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -82,10 +86,17 @@
 =======
     <leaf>
       <file pinned="false" current-in-tab="true">
+=======
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+>>>>>>> Stashed changes
         <entry file="jar://$MAVEN_REPOSITORY$/ar/edu/itba/eda/Algoritmos/1.0/Algoritmos-1.0.jar!/search/ArraySearch.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             </state>
           </provider>
@@ -131,11 +142,14 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
 =======
+=======
+>>>>>>> Stashed changes
     <option name="x" value="263" />
     <option name="y" value="62" />
     <option name="width" value="1366" />
@@ -166,6 +180,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
@@ -187,6 +202,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
           </expand>
@@ -284,7 +301,10 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <editor active="true" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <layout>
@@ -298,9 +318,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Run" order="2" weight="0.44844517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
 =======
+=======
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
 >>>>>>> Stashed changes
@@ -391,6 +414,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="jar://$MAVEN_REPOSITORY$/ar/edu/itba/eda/Algoritmos/1.0/Algoritmos-1.0.jar!/arrays/Insert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -438,6 +462,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/src/main/java/index/Main.java">
@@ -503,7 +529,10 @@
       </provider>
     </entry>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     <entry file="jar://$MAVEN_REPOSITORY$/ar/edu/itba/eda/Algoritmos/1.0/Algoritmos-1.0.jar!/search/ArraySearch.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
