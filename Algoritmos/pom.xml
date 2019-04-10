@@ -63,11 +63,11 @@
             <artifactId>commons-codec</artifactId>
             <version>1.12</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>ar.edu.itba.eda</groupId>
             <artifactId>DataStructures</artifactId>
             <version>1.0</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>ar.edu.itba.eda</groupId>
             <artifactId>TimerJava</artifactId>

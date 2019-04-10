@@ -1,5 +1,9 @@
 package index;
 
+import parsing.Evaluator;
+
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args){
@@ -17,7 +21,7 @@ public class Main {
         System.out.println(index.search(80));
         index.printArray();
         */
-
+        /*
         Integer[] dataI = new Integer[]{60, 20, 100, 80, 40, 60};
         ParametricIndex<Integer> myIndex = new ParametricIndex<>(dataI);
         myIndex.printArray();
@@ -42,5 +46,29 @@ public class Main {
         System.out.println(String.format("%s en pos %d", stringKey, pos));
         myIndexS.printArray();
         System.out.println(myIndexS.getArray().length);
+        */
+
+        /*Scanner inputScanner = new Scanner(System.in).useDelimiter("\\n");
+        System.out.print("Introduzca la expresión en notación postfija: ");
+        inputScanner.hasNextLine();
+
+        String line = inputScanner.nextLine();
+
+        Scanner lineScanner = new Scanner(line).useDelimiter("\\s+");
+        while(lineScanner.hasNext()){
+            String token = lineScanner.next();
+            System.out.print(token);
+            if (token.matches("¡!|,|;|##|¿\\?"))
+                System.out.println(" - OK");
+            else
+                System.out.println(" - Invalid ");
+        }*/
+
+        try {
+            Double resp = new Evaluator().evaluate();
+            System.out.println(resp);
+        } catch (RuntimeException ex){
+            System.out.println(ex.getMessage());
+        }
     }
 }
