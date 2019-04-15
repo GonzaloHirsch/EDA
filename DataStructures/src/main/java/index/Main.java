@@ -65,8 +65,10 @@ public class Main {
         }*/
 
         try {
-            Double resp = new Evaluator().evaluate();
-            System.out.println(resp);
+            //Double resp = new Evaluator().evaluate();
+            Evaluator e = new Evaluator();
+            System.out.println(e.infixToPostfix());
+            System.out.println(e.evaluate());
         } catch (RuntimeException ex){
             System.out.println(ex.getMessage());
         }

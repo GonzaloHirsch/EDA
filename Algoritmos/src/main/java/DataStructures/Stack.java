@@ -27,6 +27,6 @@ public class Stack <T extends Comparable<? super T>> {
     }
 
     public T peek(){
-        return stack.getFirst().getValue();
+        return  isEmpty() ? null : stack.getFirst().getValue();
     }
 }

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e666e97-941e-49c6-bf73-459b7cb2c021" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algoritmos/src/main/java/DataStructures/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algoritmos/src/main/java/DataStructures/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algoritmos/src/main/java/DataStructures/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algoritmos/src/main/java/parsing/Evaluator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algoritmos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritmos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritmos/src/main/java/DataStructures/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/src/main/java/DataStructures/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritmos/src/main/java/parsing/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/src/main/java/parsing/Evaluator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algoritmos/target/Algoritmos-1.0-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/Algoritmos-1.0-shaded.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algoritmos/target/Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/Algoritmos-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/classes/DataStructures/LinkedList$LinkedListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/classes/DataStructures/LinkedList$LinkedListIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/classes/DataStructures/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/classes/DataStructures/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/classes/DataStructures/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/classes/DataStructures/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/classes/DataStructures/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/classes/DataStructures/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/classes/parsing/Evaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/classes/parsing/Evaluator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algoritmos/target/original-Algoritmos-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritmos/target/original-Algoritmos-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/index/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/Main.java" afterDir="false" />
@@ -42,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lists/SortedLinkedListWithHeader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="1547">
               <caret line="158" column="9" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,13 +56,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/index/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+            <state relative-caret-position="106">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/ar/edu/itba/eda/Algoritmos/1.0/Algoritmos-1.0.jar!/parsing/Evaluator.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/ar/edu/itba/eda/Algoritmos/1.0/Algoritmos-1.0.jar!/DataStructures/Stack.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/ar/edu/itba/eda/Algoritmos/1.0/Algoritmos-1.0.jar!/DataStructures/LinkedList.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#339#340#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,8 +162,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,7 +246,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554904395816" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555336006510" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -283,18 +323,20 @@
       <updated>1554290027173</updated>
       <workItem from="1554290043936" duration="6449000" />
       <workItem from="1554326317475" duration="1428000" />
-      <workItem from="1554894561762" duration="4518000" />
+      <workItem from="1554894561762" duration="4570000" />
+      <workItem from="1555326367474" duration="191000" />
+      <workItem from="1555328183894" duration="6878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3642000" />
+    <option name="totallyTimeSpent" value="10763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24508321" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,13 +397,52 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/index/Main.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>!((String)stack.peek()).equals(&quot;(&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!op1.matches(&quot;[+\\-]&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="157" column="87" selection-start-line="157" selection-start-column="87" selection-end-line="157" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lists/SortedLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#remove#0;class#SortedLinkedList#0" />
+            <element signature="method#size#0;class#SortedLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lists/SortedLinkedListWithHeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="1547">
           <caret line="158" column="9" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -371,20 +452,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/ar/edu/itba/eda/Algoritmos/1.0/Algoritmos-1.0.jar!/DataStructures/LinkedList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="157" column="87" selection-start-line="157" selection-start-column="87" selection-end-line="157" selection-end-column="87" />
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ar/edu/itba/eda/Algoritmos/1.0/Algoritmos-1.0.jar!/DataStructures/Stack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/index/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+        <state relative-caret-position="106">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ar/edu/itba/eda/Algoritmos/1.0/Algoritmos-1.0.jar!/parsing/Evaluator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
         </state>
       </provider>
     </entry>
