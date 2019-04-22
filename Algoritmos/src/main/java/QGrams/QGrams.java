@@ -36,9 +36,12 @@ public class QGrams {
 
     private static int FindGrams(Map<String, Integer> listA, Map<String, Integer> listB){
         int count = 0;
+        int stored;
         for (String str : listA.keySet()) {
-            if (listB.get(str) != null)
-                count += listB.get(str);
+            if (listB.get(str) != null){
+                stored = listB.get(str);
+                count += (listA.get(str) > stored ? stored : listA.get(str));
+            }
         }
         return count;
     }
