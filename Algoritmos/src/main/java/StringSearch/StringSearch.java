@@ -25,6 +25,8 @@ public class StringSearch {
         int[] next = new int[query.length];
         next[0] = 0;     // Always. There's no proper border.
         int border = 0;  // Length of the current border
+
+        //Iterates the whole query
         for (int rec = 1; rec < query.length; rec++) {
             while ((border > 0) && (query[border] != query[rec]))
                 border = next[border - 1];     // Improving previous computation
@@ -37,7 +39,7 @@ public class StringSearch {
     }
 
     /**
-     * Finds all the positions of the ocurrences of query in target
+     * Finds all the positions of the occurrences of query in target
      * @param query string to search for in target
      * @param target target string to search in
      * @return positions of query in target
@@ -60,7 +62,7 @@ public class StringSearch {
             }
             if (pquery == query.length) {  // Found!!!
                 positions.add(rec - pquery);
-                rec++;
+                //rec++;
                 pquery = next[pquery - 1];
             } else // mismatch?
                 if (rec < target.length && target[rec] != query[pquery]) {
