@@ -13,6 +13,14 @@ public class OpenHash<K,V> {
     private final int INITIAL_SIZE = 5;
 
     /**
+     * Maximum load capacity
+     */
+    private final double MAXIMUM_LOAD_CAPACITY = 0.75;
+
+
+    private int listMaxSize = 0;
+
+    /**
      * Node array of fixed size
      */
     @SuppressWarnings("unchecked")
@@ -81,20 +89,21 @@ public class OpenHash<K,V> {
         if (table[index] == null){
             table[index] = new LinkedList<>();
             table[index].add(new Node<>(key, value));
+            if (listMaxSize == 0)
+                listMaxSize++;
         } else {
-            Iterator<Node<K,V>> iter = table[index].iterator();
-            Node<K,V> actual = null;
-            while(iter.hasNext() && position == -1){
-                actual = iter.next();
-                if (actual.key == key){
-                    position = table[index].indexOf(actual);
-                }
-            }
+            position = table[index].indexOf(new Node<>(key, value));
             if (position != -1){
                 table[index].get(position).value = value;
-            } else
+            } else{
                 table[index].add(new Node<>(key, value));
+                if (table[index].size() > listMaxSize)
+                    listMaxSize = table[index].size();
+            }
         }
+
+        if ((double)listMaxSize / table.length > MAXIMUM_LOAD_CAPACITY)
+            reHash();
     }
 
     public void delete(K key)
@@ -103,14 +112,7 @@ public class OpenHash<K,V> {
         int position = -1;
 
         if (table[index] != null){
-            Iterator<Node<K,V>> iter = table[index].iterator();
-            Node<K,V> actual = null;
-            while(iter.hasNext() && position == -1){
-                actual = iter.next();
-                if (actual.key == key){
-                    position = table[index].indexOf(actual);
-                }
-            }
+            position = table[index].indexOf(new Node<>(key, null));
             if (position != -1){
                 table[index].remove(position);
                 if (table[index].size() == 0)
@@ -134,6 +136,24 @@ public class OpenHash<K,V> {
             }
     }
 
+    @SuppressWarnings("unchecked")
+    private void reHash(){
+        LinkedList<Node<K,V>>[] aux = table;
+        table = new LinkedList[2 * aux.length];
+        listMaxSize = 0;
+
+        for (int i = 0; i < aux.length; i++){
+            if (aux[i] != null){
+                Iterator<Node<K,V>> iter = aux[i].iterator();
+                Node<K,V> actual = null;
+                while(iter.hasNext()){
+                    actual = iter.next();
+                    this.insert(actual.key, actual.value);
+                }
+            }
+        }
+    }
+
     static class Node<K,V>
     {
         final K key;
@@ -149,6 +169,17 @@ public class OpenHash<K,V> {
         public String toString()
         {
             return String.format("key=%s, value=%s", key, value );
+        }
+
+        @Override
+        @SuppressWarnings("unchecked")
+        public boolean equals(Object o){
+            if (this == o)
+                return true;
+            if (!(o instanceof Node))
+                return false;
+            Node<K,V> aux = (Node<K,V>)o;
+            return aux.key == this.key;
         }
     }
 }

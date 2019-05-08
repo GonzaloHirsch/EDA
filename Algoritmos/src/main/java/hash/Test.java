@@ -63,8 +63,14 @@ public class Test {
         });
 
         hash.insert(3, "Dick");
+        hash.insert(13, "Jorge");
+        hash.insert(33, "John");
+        hash.insert(43, "Pepe");
+        hash.insert(53, "Rob");
+        hash.insert(63, "Bert");
         hash.insert(23, "Joe");
         hash.insert(4, "Sue");
+        hash.insert(8, "Megan");
         hash.insert(15, "Meg");
         hash.delete(23);
         hash.delete(15);
