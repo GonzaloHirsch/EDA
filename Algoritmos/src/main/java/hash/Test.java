@@ -7,12 +7,8 @@ public class Test {
 
     public static void main(String[] args) throws IOException {
 
-        Hash<String, Integer> hash = new Hash<>(new Function<String, Integer>() {
-            @Override
-            public Integer apply(String s) {
-                return (int)s.charAt(0);
-            }
-        });
+        /*
+        Hash<String, Integer> hash = new Hash<>
 
         Hash<String, Integer> newHash = new Hash<>(new Function<String, Integer>() {
             @Override
@@ -58,5 +54,23 @@ public class Test {
         System.out.println("--------------------------------------------------------------------------------------------------------------------");
 
         newHash.dump();
+        */
+        OpenHash<Integer, String> hash = new OpenHash<>(new Function<Integer, Integer>() {
+            @Override
+            public Integer apply(Integer integer) {
+                return integer;
+            }
+        });
+
+        hash.insert(3, "Dick");
+        hash.insert(23, "Joe");
+        hash.insert(4, "Sue");
+        hash.insert(15, "Meg");
+        hash.delete(23);
+        hash.delete(15);
+        hash.insert(4, "Susan");
+        hash.insert(43, "Paul");
+
+        hash.dump();
     }
 }

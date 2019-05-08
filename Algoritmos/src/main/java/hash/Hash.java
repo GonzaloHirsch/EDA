@@ -86,7 +86,7 @@ public class Hash<K, V>
                 nextIndex = index;
             }
         }
-        
+
         //Verify if there is a key collision
         if (get(key) != null)
             throw new RuntimeException("Key collision");
@@ -110,7 +110,7 @@ public class Hash<K, V>
         //Clear the used keys
         this.usedKeys = 0;
         for(int i = 0; i < aux.length; i++){
-            if (aux[i].status != Slot.Status.EMPTY || aux[i].status != Slot.Status.LOGICAL_DELETE || aux[i].status != Slot.Status.PHYSICAL_DELETE)
+            if (aux[i].status != Slot.Status.EMPTY || aux[i].status != Slot.Status.LOGICAL_DELETE )
                 this.insert(aux[i].node.key, aux[i].node.value);
         }
     }
