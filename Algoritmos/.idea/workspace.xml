@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="630cb25c-762a-4641-9774-9897434184cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bag/bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parsing/ExpTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/LinkedList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/LinkedList$LinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DocumentSearch/FullTextRetrieval$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DocumentSearch/FullTextRetrieval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DocumentSearch/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Levenshtein/Levenshtein.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Levenshtein/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LevenshteinAlternative/LevenshteinAlternative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QGrams/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QGrams/QGrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Soundex/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Soundex/Soundex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SoundexAlternative/SoundexAlternative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringSearch/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringSearch/StringSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Insert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hash/Hash$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hash/Hash$Slot$Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hash/Hash$Slot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hash/Hash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hash/OpenHash$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hash/OpenHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hash/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hash/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parsing/Evaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Utils.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hash/Hash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="1802">
               <caret line="112" column="98" selection-start-line="112" selection-start-column="98" selection-end-line="112" selection-end-column="98" />
             </state>
           </provider>
@@ -31,14 +66,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hash/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="119">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#428:872" />
-                <element signature="e#1060#1566#0" />
                 <element signature="e#1988#1989#0" expanded="true" />
-                <element signature="e#2031#2032#0" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,22 +80,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hash/OpenHash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2295">
+            <state relative-caret-position="2261">
               <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#458#488#0" expanded="true" />
-                <element signature="e#4561#4591#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bag/bag.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trees/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parsing/Evaluator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="145" column="9" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="145" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parsing/ExpTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -94,6 +158,8 @@
         <option value="$PROJECT_DIR$/src/main/java/hash/Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/bag/bag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trees/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parsing/ExpTree.java" />
       </list>
     </option>
   </component>
@@ -104,7 +170,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -148,12 +214,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bag" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algoritmos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parsing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algoritmos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="trees" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,16 +287,18 @@
       <updated>1556536751194</updated>
       <workItem from="1556536752384" duration="9005000" />
       <workItem from="1557312895699" duration="8061000" />
+      <workItem from="1557746377528" duration="5103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17066000" />
+    <option name="totallyTimeSpent" value="22169000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -265,27 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hash/Hash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="112" column="98" selection-start-line="112" selection-start-column="98" selection-end-line="112" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hash/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#428:872" />
-            <element signature="e#1060#1566#0" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2031#2032#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -293,14 +356,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hash/Hash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="112" column="98" selection-start-line="112" selection-start-column="98" selection-end-line="112" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hash/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hash/OpenHash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
+        <state relative-caret-position="2261">
           <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#458#488#0" expanded="true" />
-            <element signature="e#4561#4591#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -308,7 +388,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bag/bag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trees/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing/Evaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="145" column="9" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="145" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing/ExpTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
         </state>
       </provider>
     </entry>
