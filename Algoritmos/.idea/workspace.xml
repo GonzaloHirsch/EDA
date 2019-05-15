@@ -2,44 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="630cb25c-762a-4641-9774-9897434184cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/parsing/ExpTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trees/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parsing/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/BSTreeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/NodeTreeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/TestGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/LinkedList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/LinkedList$LinkedListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataStructures/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DocumentSearch/FullTextRetrieval$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DocumentSearch/FullTextRetrieval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DocumentSearch/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Levenshtein/Levenshtein.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Levenshtein/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LevenshteinAlternative/LevenshteinAlternative.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/QGrams/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/QGrams/QGrams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Soundex/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Soundex/Soundex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SoundexAlternative/SoundexAlternative.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StringSearch/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StringSearch/StringSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Delete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Move.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hash/Hash$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hash/Hash$Slot$Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hash/Hash$Slot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hash/Hash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hash/OpenHash$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hash/OpenHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hash/Test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hash/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parsing/Evaluator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parsing/ExpTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parsing/ExpTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/BinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,52 +32,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hash/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
-                <element signature="e#2034#2035#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hash/OpenHash.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2261">
-              <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bag/bag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/trees/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="257">
+              <caret line="214" column="24" lean-forward="true" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
               <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#4052#4053#0" expanded="true" />
+                <element signature="e#4094#4095#0" expanded="true" />
+                <element signature="e#7107#7108#0" expanded="true" />
+                <element signature="e#7209#7210#0" expanded="true" />
+                <element signature="e#7313#7314#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trees/BSTreeInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -116,17 +66,63 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parsing/Evaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="145" column="9" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="145" selection-end-column="9" />
+            <state relative-caret-position="107">
+              <caret line="204" column="27" selection-start-line="203" selection-start-column="4" selection-end-line="225" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parsing/ExpTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="22">
+              <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+              <folding>
+                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1103#1104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parsing/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/GraphicsTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trees/TestGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trees/NodeTreeInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -137,6 +133,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -158,8 +155,14 @@
         <option value="$PROJECT_DIR$/src/main/java/hash/Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/bag/bag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/trees/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing/ExpTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parsing/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/GraphicsTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trees/TestGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trees/BSTInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trees/BSTreeInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trees/NodeTreeInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trees/BinaryTree.java" />
       </list>
     </option>
   </component>
@@ -181,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,6 +224,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algoritmos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="parsing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,13 +247,18 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/trees" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gonza Hirsch\IdeaProjects\EDA\Algoritmos\src\main\java\trees" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,7 +272,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestGUI">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parsing.Test" />
+      <module name="Algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parsing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hash.Test" />
       <module name="Algoritmos" />
@@ -269,8 +299,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.TestGUI" />
+      <module name="Algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestGUI" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -288,17 +333,18 @@
       <workItem from="1556536752384" duration="9005000" />
       <workItem from="1557312895699" duration="8061000" />
       <workItem from="1557746377528" duration="5103000" />
+      <workItem from="1557918538002" duration="9837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22169000" />
+    <option name="totallyTimeSpent" value="32006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -306,7 +352,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -331,6 +377,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/parsing/Test.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -369,8 +427,6 @@
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -392,30 +448,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trees/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parsing/Evaluator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="145" column="9" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="145" selection-end-column="9" />
+        <state relative-caret-position="107">
+          <caret line="204" column="27" selection-start-line="203" selection-start-column="4" selection-end-line="225" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parsing/ExpTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="22">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trees/TestGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/GraphicsTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trees/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trees/BSTInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trees/BSTreeInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trees/NodeTreeInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trees/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="214" column="24" lean-forward="true" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#4052#4053#0" expanded="true" />
+            <element signature="e#4094#4095#0" expanded="true" />
+            <element signature="e#7107#7108#0" expanded="true" />
+            <element signature="e#7209#7210#0" expanded="true" />
+            <element signature="e#7313#7314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
