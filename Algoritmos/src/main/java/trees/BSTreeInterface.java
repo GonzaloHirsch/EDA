@@ -16,4 +16,6 @@ public interface BSTreeInterface<T extends Comparable<? super T>> {
 
     NodeTreeInterface<T> getRoot();
 
+    void printByLevels();
+
 }
