@@ -18,10 +18,15 @@ public class Test {
         */
 
         BTree<Integer> st = new BTree<>(2);
-        for (int rec = 0; rec < 20; rec++){
-            st.add(rec);
+        Integer[] nums = {0, 8, 109, 220, 222, 241, 149, 107, 75, 248, 254, 140, 16, 66, 74, 21, 211, 47, 80, 242};
+        for (int rec = 0; rec < nums.length; rec++){
+            st.add(nums[rec]);
             System.out.println(st.toString());
             System.out.println("....");
         }
+        System.out.println("........................................................................................");
+        st.remove(66);
+        System.out.println(st.toString());
     }
 }
+

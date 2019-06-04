@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="630cb25c-762a-4641-9774-9897434184cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/trees/BTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trees/ITree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphs/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trees/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trees/BTree$JavaCompatibleBTree$BTreeIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trees/BTree$JavaCompatibleBTree$BTreeIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trees/BTree$JavaCompatibleBTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trees/BTree$JavaCompatibleBTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trees/BTree$Node$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trees/BTree$Node$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trees/BTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trees/BTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trees/BTree$TreePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trees/BTree$TreePrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/trees/BTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trees/BTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/trees/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/trees/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,48 +30,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trees/BTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2062">
-              <caret line="567" column="23" selection-start-line="567" selection-start-column="23" selection-end-line="567" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="297" column="25" selection-start-line="297" selection-start-column="25" selection-end-line="297" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#16#46#0" expanded="true" />
-                <element signature="e#14950#14951#0" expanded="true" />
-                <element signature="e#14977#14978#0" expanded="true" />
-                <element signature="e#18220#18221#0" expanded="true" />
-                <element signature="e#18277#18278#0" expanded="true" />
-                <element signature="e#18360#18361#0" expanded="true" />
-                <element signature="e#18410#18411#0" expanded="true" />
-                <element signature="e#18777#18778#0" expanded="true" />
-                <element signature="e#18856#18857#0" expanded="true" />
-                <element signature="e#19256#19257#0" expanded="true" />
-                <element signature="e#19298#19299#0" expanded="true" />
-                <element signature="e#20680#20681#0" expanded="true" />
-                <element signature="e#20719#20720#0" expanded="true" />
-                <element signature="e#22471#22472#0" expanded="true" />
-                <element signature="e#22514#22515#0" expanded="true" />
-                <element signature="e#25190#25191#0" expanded="true" />
-                <element signature="e#25230#25231#0" expanded="true" />
+                <element signature="method#removeGreatestValue#0;class#BTree#0" />
+                <element signature="method#combined#0;class#BTree#0" />
+                <element signature="method#getIndexOfPreviousValue#0;class#BTree#0" />
+                <element signature="method#getIndexOfNextValue#0;class#BTree#0" />
+                <element signature="e#15056#15057#0" expanded="true" />
+                <element signature="e#15083#15084#0" expanded="true" />
+                <element signature="method#validate#0;class#BTree#0" />
+                <element signature="method#validateNode#0;class#BTree#0" />
+                <element signature="e#18326#18327#0" expanded="true" />
+                <element signature="e#18383#18384#0" expanded="true" />
+                <element signature="e#18466#18467#0" expanded="true" />
+                <element signature="e#18516#18517#0" expanded="true" />
+                <element signature="class#TreePrinter#0;class#BTree#0" />
+                <element signature="class#JavaCompatibleBTree#0;class#BTree#0" />
+                <element signature="e#25296#25297#0" expanded="true" />
                 <element signature="e#25336#25337#0" expanded="true" />
-                <element signature="e#25382#25383#0" expanded="true" />
-                <element signature="e#25496#25497#0" expanded="true" />
-                <element signature="e#25556#25557#0" expanded="true" />
-                <element signature="e#25672#25673#0" expanded="true" />
-                <element signature="e#25726#25727#0" expanded="true" />
-                <element signature="e#25822#25823#0" expanded="true" />
-                <element signature="e#25864#25865#0" expanded="true" />
-                <element signature="e#25982#25983#0" expanded="true" />
-                <element signature="e#26046#26047#0" expanded="true" />
-                <element signature="e#26432#26441#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/graphs/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="58" column="174" selection-start-line="58" selection-start-column="174" selection-end-line="58" selection-end-column="174" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#276#298#0" expanded="true" />
+                <element signature="e#783#812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trees/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="459">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -73,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trees/ITree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-457">
+            <state relative-caret-position="17">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
@@ -84,8 +101,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/main/java/hash/Hash.java" />
         <option value="$PROJECT_DIR$/src/main/java/hash/OpenHash.java" />
         <option value="$PROJECT_DIR$/src/main/java/hash/Test.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/bag/bag.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing/ExpTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing/Test.java" />
@@ -116,8 +132,10 @@
         <option value="$PROJECT_DIR$/src/main/java/trees/BSTreeInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/trees/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/trees/ITree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/trees/BTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/trees/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trees/BTree.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/graphs/main.java" />
       </list>
     </option>
   </component>
@@ -128,7 +146,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -139,6 +157,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,38 +190,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algoritmos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algoritmos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="parsing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algoritmos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
+              <item name="graphs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.main">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="parsing.Test" />
       <module name="Algoritmos" />
@@ -281,8 +275,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.main" />
+      <module name="Algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.TestGUI" />
         <item itemvalue="Application.Test (1)" />
@@ -306,17 +314,19 @@
       <workItem from="1557918538002" duration="9863000" />
       <workItem from="1558350256400" duration="8393000" />
       <workItem from="1558522111286" duration="595000" />
-      <workItem from="1558955524770" duration="1607000" />
+      <workItem from="1558955524770" duration="4323000" />
+      <workItem from="1559563962628" duration="3786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42627000" />
+    <option name="totallyTimeSpent" value="49129000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,13 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -492,55 +495,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trees/ITree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trees/BTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2062">
-          <caret line="567" column="23" selection-start-line="567" selection-start-column="23" selection-end-line="567" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="297" column="25" selection-start-line="297" selection-start-column="25" selection-end-line="297" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16#46#0" expanded="true" />
-            <element signature="e#14950#14951#0" expanded="true" />
-            <element signature="e#14977#14978#0" expanded="true" />
-            <element signature="e#18220#18221#0" expanded="true" />
-            <element signature="e#18277#18278#0" expanded="true" />
-            <element signature="e#18360#18361#0" expanded="true" />
-            <element signature="e#18410#18411#0" expanded="true" />
-            <element signature="e#18777#18778#0" expanded="true" />
-            <element signature="e#18856#18857#0" expanded="true" />
-            <element signature="e#19256#19257#0" expanded="true" />
-            <element signature="e#19298#19299#0" expanded="true" />
-            <element signature="e#20680#20681#0" expanded="true" />
-            <element signature="e#20719#20720#0" expanded="true" />
-            <element signature="e#22471#22472#0" expanded="true" />
-            <element signature="e#22514#22515#0" expanded="true" />
-            <element signature="e#25190#25191#0" expanded="true" />
-            <element signature="e#25230#25231#0" expanded="true" />
+            <element signature="method#removeGreatestValue#0;class#BTree#0" />
+            <element signature="method#combined#0;class#BTree#0" />
+            <element signature="method#getIndexOfPreviousValue#0;class#BTree#0" />
+            <element signature="method#getIndexOfNextValue#0;class#BTree#0" />
+            <element signature="e#15056#15057#0" expanded="true" />
+            <element signature="e#15083#15084#0" expanded="true" />
+            <element signature="method#validate#0;class#BTree#0" />
+            <element signature="method#validateNode#0;class#BTree#0" />
+            <element signature="e#18326#18327#0" expanded="true" />
+            <element signature="e#18383#18384#0" expanded="true" />
+            <element signature="e#18466#18467#0" expanded="true" />
+            <element signature="e#18516#18517#0" expanded="true" />
+            <element signature="class#TreePrinter#0;class#BTree#0" />
+            <element signature="class#JavaCompatibleBTree#0;class#BTree#0" />
+            <element signature="e#25296#25297#0" expanded="true" />
             <element signature="e#25336#25337#0" expanded="true" />
-            <element signature="e#25382#25383#0" expanded="true" />
-            <element signature="e#25496#25497#0" expanded="true" />
-            <element signature="e#25556#25557#0" expanded="true" />
-            <element signature="e#25672#25673#0" expanded="true" />
-            <element signature="e#25726#25727#0" expanded="true" />
-            <element signature="e#25822#25823#0" expanded="true" />
-            <element signature="e#25864#25865#0" expanded="true" />
-            <element signature="e#25982#25983#0" expanded="true" />
-            <element signature="e#26046#26047#0" expanded="true" />
-            <element signature="e#26432#26441#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trees/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="459">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trees/ITree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/graphs/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="58" column="174" selection-start-line="58" selection-start-column="174" selection-end-line="58" selection-end-column="174" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#298#0" expanded="true" />
+            <element signature="e#783#812#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
